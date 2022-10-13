@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#attack2, 
+#attack,
+#combo,
+#run,
+#roll,
+#jump{
+    display: none;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+    padding: 12px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#canvas1 {
+    box-shadow: inset 5px 5px 5px black;
+    border: 1px solid black;
+}
+#frame1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
